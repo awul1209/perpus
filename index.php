@@ -14,7 +14,7 @@ if (isset($_SESSION['ses_username']) == '') {
 //KONEKSI DB
 include 'inc/koneksi.php';
 
-// error_reporting(0);
+error_reporting(0);
 $page = $_GET['page'];
 
 $tanggal = date('d - F - Y');
